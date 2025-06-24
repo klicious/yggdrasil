@@ -1,0 +1,48 @@
+###############################################################################
+# 🌐  Base – Language-agnostic & OS clutter
+###############################################################################
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sw?
+*~
+*.orig
+*.rej
+tags
+*.tag
+
+###############################################################################
+# 🐍  Python helpers (MkDocs plugins, roster generator)
+###############################################################################
+__pycache__/
+*.py[cod]
+.mypy_cache/
+.pytest_cache/
+.env
+*.egg-info/
+build/
+dist/
+
+###############################################################################
+# 📦  Node tooling (if you use Docusaurus or mermaid-cli)
+###############################################################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+###############################################################################
+# 🌳  Yggdrasil-specific
+###############################################################################
+# Static-site build output (kept on gh-pages branch, never in main)
+site/
+docs/
+mkdocs.yml.lock
+
+# Nightly analytics exports
+analytics/*.csv
+analytics/*.json
+
+# Member roster auto-generated cache
+02-team/members/index_tmp.md
