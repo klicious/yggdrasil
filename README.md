@@ -164,4 +164,4 @@ Reuse outside the company requires written approval from Engineering Leadership.
 
 *Both repositories together give every teammate—and every retrieval-augmented agent—the full 360-degree view: **Runebook** for how the code works, **Yggdrasil** for why we build and operate the way we do.*
 
-<!-- README.md last updated from commit: cf9cedf813898cc6f54d8abde84c055f09f4886a -->
+<!-- README.md last updated from commit: f8eff3399ad574751ee04eebfd84fa32bdd25111 -->
